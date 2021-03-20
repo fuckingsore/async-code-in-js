@@ -65,7 +65,7 @@ John.
 
 Тепер, коли приблизно зрозуміло як поводить себе JS в такому випадку, розберемо як це все відбувається "під капотом". А там ми маємо наступні механізми: Call Stack, Web APIs, Event Loop, Callback Queue. Виглядає це десь так:
 
-![](./src/gif/callstack-gif.gif)
+![](../src/gif/callstack-gif.gif)
 
 *Розберемо покроково:*
 * Крок №1 `console.log('Hi,')` потрапляє у Call Stack, виконується та прибирається звідти
@@ -302,7 +302,7 @@ new Promise(function(resolve, reject) {
 
 Об'єкт Promise має дві властивості: *state* та *result*. Перший, тобто *state*, відповідає за стан об'єкту - при створенні він має стан *pending* (очікуваня) після виклику `resolve(value)` - *fulfilled* (виконано успішно), а після виклику `reject(err)` - *rejected*(виконано з помилкою). Другий, *result* - при створенні *undefined*, після виклику `resolve(value)` - *value*, а після виклику `reject(error)` - *error*.
 
-![](./src/image/promise_properties.PNG)
+![](../src/image/promise_properties.PNG)
 
 **Приклад №5:**
 

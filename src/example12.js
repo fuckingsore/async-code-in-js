@@ -14,9 +14,18 @@ function newSimpleDelay(time) {
     })
 }
 
-Promise.all([
-    newSimpleDelay(1000),
-    newSimpleDelay(1500),
-    newSimpleDelay(2000)
-    ])
-    .then(res => console.log(`Result: ${res}.`))
+// Promise.all([
+//     newSimpleDelay(1000),
+//     newSimpleDelay(1500),
+//     newSimpleDelay(2000)
+//     ])
+//     .then(res => console.log(`Result: ${res}.`))
+
+// Promise.all([
+//     newSimpleDelay(2100),
+//     newSimpleDelay(2200),
+//     newSimpleDelay(2000)
+//     ])
+//     .catch(err => console.log(err))
+
+module.exports = newSimpleDelay
