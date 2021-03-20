@@ -6,4 +6,4 @@
 
 3. Встановити всі потрібні залежності командою `npm install`
 
->Доповідь знаходиться [тут](./asynchronous_programming.md)
+>Доповідь знаходиться [тут](./doc/asynchronous_programming.md)
