@@ -6,6 +6,6 @@
 
 3. Встановити всі потрібні залежності командою `npm install`
 
->Доповідь знаходиться [тут](./asynchronous_programming.md)
+>Доповідь знаходиться [тут](./doc/asynchronous_programming.md)
 
 ><a href="https://github.com/ForeverProglamer/async-code-in-js" target="_blank">https://github.com/ForeverProglamer/async-code-in-js</a>
