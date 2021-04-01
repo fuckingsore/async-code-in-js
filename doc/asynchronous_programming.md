@@ -664,3 +664,5 @@ After 1 sec delay
 
 ## Матеріал підготував 
 * *студент групи ІВ-91 Черних Богдан* - [ForeverProglamer](https://github.com/ForeverProglamer)
+
+><a href="https://github.com/ForeverProglamer/async-code-in-js" target="_blank">https://github.com/ForeverProglamer/async-code-in-js</a>
